@@ -68,7 +68,7 @@ Vue.use(VueAudio)
 
 ### `width`
 
-Type: `Number` - Default: `500`
+Type: `String` - Default: `500px`
 
 Audio width
 

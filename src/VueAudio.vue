@@ -43,7 +43,7 @@ export default {
       rate: 1,
       isMute: true,
       curVolume: 0.5,
-      totalWidth: 500
+      totalWidth: "500px"
     }
   },
   watch: {
@@ -122,8 +122,8 @@ export default {
     }
   },
   mounted () {
-    if(this.width && typeof this.width === 'number') {
-      this.totalWidth = this.width + 'px';
+    if (this.width) {
+      this.totalWidth = this.width
     }
     // 设置音量
     this.setVolume(this.curVolume);
